@@ -16,4 +16,3 @@ const styles = {
 
 export { styles };
 
-npm install --legacy-peer-deps  @react-three/fiboer @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom 
