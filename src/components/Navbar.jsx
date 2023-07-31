@@ -45,7 +45,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Ayandah &nbsp;
-            <span className='sm:block hidden'> |Profile </span>
+            <span className='sm:block hidden'> |Digital Profile </span>
           </p>
         </Link>
 
@@ -58,6 +58,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
+            
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
